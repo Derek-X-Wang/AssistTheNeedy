@@ -1,4 +1,4 @@
-package com.intbridge.assisttheneedy;
+package com.intbridge.assisttheneedy.utils;
 
 import android.app.Application;
 

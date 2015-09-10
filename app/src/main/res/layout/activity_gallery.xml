@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="20dp"
+    android:orientation="vertical"
+    android:background="#41c0c9">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/gallery_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        />
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/gallery_indicator"
+        android:layout_below="@+id/gallery_viewpager"
+        android:layout_alignParentRight="true"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"/>
+
+    <TextView
+        android:id="@+id/enterform"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="15dp"
+        android:text="Enter Form"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_weight="0.2"
+        />
+
+</LinearLayout>
